@@ -35,6 +35,6 @@ WORKDIR /home/jovyan/
 
 # checkout workshop content 
 RUN git clone https://github.com/DSSatPitt/web-scraping-workshop-2015.git
-RUN rm web-scraping-workshop-2015/Dockerfile #users don't need to see this
+RUN rm web-scraping-workshop-2015/Dockerfile # users don't need to see this file in the notebook dir
 
 CMD ipython3 notebook
