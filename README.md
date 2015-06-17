@@ -24,7 +24,6 @@ These slides contain a conceptual introduction to web scraping. They can be view
 This notebook contains an example web scrape using Python with some in-line documentation about what is happening at each step. 
 
 - [Scraping the iConference 2015 Program](http://nbviewer.ipython.org/github/DSSatPitt/web-scraping-workshop-2015/blob/master/Web%20Scraping%20Example.ipynb)
-- 
 
 
 # Using tmpnb, the temporary notebook service
