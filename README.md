@@ -24,3 +24,9 @@ These slides contain a conceptual introduction to web scraping. They can be view
 This notebook contains an example web scrape using Python with some in-line documentation about what is happening at each step. 
 
 - [Scraping the iConference 2015 Program](http://nbviewer.ipython.org/github/DSSatPitt/web-scraping-workshop-2015/blob/master/Web%20Scraping%20Example.ipynb)
+- 
+
+
+# Using tmpnb, the temporary notebook service
+
+The materials in this repository can be served to participants using the [jupyter/tmpnb service](https://github.com/jupyter/tmpnb). I've included a `Dockerfile` in this repository that can be used to build an image that contains IPython, the necesary python libraries, and the notebooks in this repository. I built an image from this `Dockerfile` and called it `jupyter/minimal` so the tmpnb service would just automatically run it because that is the name of the default image tmpnb launches for temporary notebooks. This is pretty bad documentation, if you have questions just hit me up on twitter at [@mcburton](http://twitter.com/mcburton). I'll probably write up something more comprehsive about setting up temporary teaching enviroments with tmpnb.
