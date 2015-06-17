@@ -1,6 +1,8 @@
 FROM ipython/ipython
 
-MAINTAINER IPython Project <ipython-dev@scipy.org>
+# this is a modified version of jupyter/minimal
+
+MAINTAINER Matt Burton <mcburton@gmail.com>
 
 RUN apt-get install libxml2-dev libxslt1-dev python-dev
 RUN pip2 install lxml && pip3 install lxml
